@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tegistracia-inglisurad</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div1">
+        <img src="Vision.PNG" class="img1">
+        <p class="p1">Vision</p>
+        <p class="p2">Your Eye Clinic </p>
+        <input type="text" placeholder="ძიება..." class="in1">
+        <button type="submit" class="but1"><i class="fa fa-search" style="font-size: 24px;"></i></button>
+    </div>
+    <img src="img/p_1.jpg" name = "slider">
+    <ul>
+        <li onclick="prev()"><</li>
+        <li onclick="next()">></li>
+    </ul>
+    <div class="navbar">
+        <div class="dropdown1">
+            <button class="dropbtn1">Home
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content1">
+                <a href="">Clinic history</a>
+                <a href="">Branches</a>
+            </div>
+        </div>
+        <div class="dropdown2">
+            <button class="dropbtn2">Services
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content2">
+                <a href="">Ophthalmologist</a>
+                <a href="">Therapy</a>
+                <a href="">Surgical
+                    <br> 
+                    treatment</a>
+                <a href="">Laser surgery</a>
+            </div>
+        </div>
+        <a href="" class="a1">News</a>
+        <a href="" class="a1">Authorization</a>
+        <a href="" class="a1">Registration</a>
+        <a href="" class="a1">Contact</a>
+    </div>
+    <div class="reg">
+        User Name: <input type="text" class="name" placeholder="Username">
+        <br><br>
+        Phone number: <input type="number" class="numb" placeholder="Number">
+        <br><br>
+        E-mail: <input type="text" name="mail" id="email" placeholder="e-mail"> <input type="submit" value="Submit">
+        <br><br>
+        Password: <input type="password" class="pas" placeholder="Password">
+        <br><br>
+        Confirm Password: <input type="password" class="pas_1" placeholder="Confirm">
+        <br><br>
+        Regitr.Date: <input type="date" class="date">
+        <br><br>
+        Select country: <select name="country" class="cou">
+            <option value="">Georgia
+            </option>
+            <option value="">Azerbaijan
+            </option>
+            <option value="">United States
+            </option>
+            <option value="">Angola
+            </option>
+            <option value="">Spain
+            </option>
+            <option value="">Egypt
+            </option>
+            <option value="">France
+            </option>
+            <option value="">Avstralia
+            </option>
+            <option value="">Canada
+            </option>
+            <option value="">German
+            </option>
+        </select>
+        <br><br>
+        Select city: <select name="city" class="city">
+            <option value="">Tbilisi
+            </option>
+            <option value="">Baku
+            </option>
+            <option value="">Washington
+            </option>
+            <option value="">Madrid
+            </option>
+            <option value="">Paris
+            </option>
+            <option value="">Berlin
+            </option>
+            <option value="">Kairo
+            </option>
+            <option value="">Budapesht
+            </option>
+            <option value="">Sofia
+            </option>
+            <option value="">Ankara
+            </option>
+            <option value="">Batumi
+            </option>
+        </select>
+        <button class="button">Registrarion</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
